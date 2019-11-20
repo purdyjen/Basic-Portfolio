@@ -1,0 +1,35 @@
+section {
+    width: 960px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+body {
+        background-color: #000000;
+        background-image: url("../images/prism.png");
+}
+
+header{
+    background-color: #ffffff;
+    display: block;
+    position: relative;
+}
+
+nav{
+    display: inline-block;
+    width: 240px;
+    position: fixed;
+    float: right;
+}
+
+header h1 {
+    background-color: #4aaaa5;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+
+header div{
+    display:block;
+    width: 960px;
+}
