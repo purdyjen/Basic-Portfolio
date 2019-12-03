@@ -8,7 +8,7 @@ body {
     height: 90%;
 }
 
-header{
+header {
     background-color: #ffffff;
     overflow: hidden;
     margin: 0;
@@ -24,7 +24,7 @@ header{
     z-index: 10;
 }
 
-nav{
+nav {
     float: right;
     height:78px;
 }
@@ -42,7 +42,8 @@ li {
     padding: 30px 0px 0 20px;
 }
 
-.divider{
+/* Vertical Line Divider between nav options */
+.divider {
     color: #e0e0e0;
     padding:10px;
     position:relative;
@@ -62,7 +63,7 @@ li a {
 header a:hover {
     background-color: #4aaaa5;
     color: #ffffff;
-  }
+}
   
 header h1 {
     font-family: Georgia, Times, 'Times New Roman', serif;
@@ -103,14 +104,14 @@ section h1 {
         padding:  10px 0 20px 0;
 }
 
-section img{
+section img {
         float: left;
         margin: 20px;
         width: 25%;
         overflow: auto;
 }
 
-p{
+p {
         color: #777777;
         line-height: 1.8;
 }
@@ -132,26 +133,27 @@ footer {
     z-index: 10;      
 }
 
+
   /*Contact Page Styling  */
 
-form{
+form {
     margin:25px;
     color:rgb(136, 135, 135);
     line-height:1.5;
 }
 
-input{
+input {
     margin:5px;
     margin-left:0;
     width: 100%;
     line-height: 1.5em;
 }
 
-#message{
+#message {
     height: 200px;
 }
 
-.submit{
+.submit {
     width:10%;
     background-color:#4aaaa5;
     color: #ffffff;
@@ -161,17 +163,20 @@ input{
     font-size: medium;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder { 
     color: #cccccc;
     opacity: 1; /* Firefox */
     font-size: 125%;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+/* Internet Explorer 10-11 */
+:-ms-input-placeholder { 
     color: #cccccc;
 }
 
-::-ms-input-placeholder { /* Microsoft Edge */
+/* Microsoft Edge */
+::-ms-input-placeholder { 
     color: #cccccc;
 }
 
@@ -183,7 +188,9 @@ input{
     overflow: hidden;
 }
 
-  section div{
+
+/* Portfolio Page Styling */
+  section div {
       width: 35%;
       display: inline-block;
       overflow:hidden;
@@ -192,7 +199,7 @@ input{
       left: 17px;
 }
 
-.portfolioHeader{
+.portfolioHeader {
     width: 100%;
     background-color: #4aaaa5;
     height: 50px;
@@ -201,11 +208,9 @@ input{
     left: 17px;
     right: 0px;
     z-index: 2;
-    /* padding: 5px 10px 15px 10px; */
     text-align: center;
     font-family: Georgia, Times, 'Times New Roman', serif;
     color: #ffffff;
     line-height: 50px;
     font-size: 1.2em;
-    
 }
